@@ -36,9 +36,10 @@
 
 tw-story[tags~="title4"]{
   background-image:url("image.jpeg");
- background-size:contain;
+ background-size:cover;
   background-position:center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 tw-story[tags~="annihilation"]{
@@ -75,6 +76,12 @@ tw-story [tags~="atitle"] tw-link:hover {
   
 }
 
+@media only screen and (max-width: 1000px) {
+  #title,
+  #annihilation {
+    height: auto;
+  }
+}
 
 
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
@@ -469,7 +476,7 @@ It&#39;s wrong? How could it be wrong?
 
 The End.
 
-(align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[[[`(Or is it?)` -&gt;Part 1: Arrival]]]</tw-passagedata><tw-passagedata pid="25" name="Part 3: Annihilation" tags="annihilation" position="3050,1025" size="100,100">
+(align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[[[`(Or is it?)` -&gt;Part 1: Arrival]]]</tw-passagedata><tw-passagedata pid="25" name="Part 3: Annihilation" tags="annihilation" position="3050,1025" size="100,100">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
 
 You wake up in a white room. There&#39;s no windows so you have no idea where you are. You also have no clue how long you’ve been here. There’s just the bed you’re lying in and cameras in every corner of the room. You&#39;re hooked up to some machines that fill up the silence, but other than that there’s no sign that anyone’s been here in a while. You try to sit up but you have no energy.
 
@@ -492,7 +499,9 @@ And what about `Bit_By_Bit`, what if it was written by another computer? One who
 //
 
 [[Option_1: Yes]]
-[[Option_2: No -&gt;Option_2: Actually, never mind]]</tw-passagedata><tw-passagedata pid="27" name="What could they have done with Mary?" tags="annihilation" position="3250,1025" size="100,100">After what feels like days, two sallow-faced people dressed in white scrubs arrive and without a word begin unplugging you from the machines. You can feel your body waking up as if it was being slowly filled up with energy. The assistants don’t restrain you in anyway, they just get on either side of you and begin to lead you down a hallway.
+[[Option_2: No -&gt;Option_2: Actually, never mind]]</tw-passagedata><tw-passagedata pid="27" name="What could they have done with Mary?" tags="annihilation" position="3250,1025" size="100,100">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+
+After what feels like days, two sallow-faced people dressed in white scrubs arrive and without a word begin unplugging you from the machines. You can feel your body waking up as if it was being slowly filled up with energy. The assistants don’t restrain you in anyway, they just get on either side of you and begin to lead you down a hallway.
 
 This is it. You have no idea where you’re headed but you know that if this is your last chance at a life worth living, you have to figure out that passcode.
 
@@ -509,7 +518,9 @@ For now, you have escaped [[in more ways than one…]]
 
 
 
-</tw-passagedata><tw-passagedata pid="28" name="in more ways than one…" tags="annihilation" position="3425,1050" size="100,100">You make your way to the bookstore and immediately find the owner waiting at the till as if he was expecting you.
+</tw-passagedata><tw-passagedata pid="28" name="in more ways than one…" tags="annihilation" position="3425,1050" size="100,100">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+
+You make your way to the bookstore and immediately find the owner waiting at the till as if he was expecting you.
 
 Someone mailed him another copy of `Bit_By_Bit`, this one with a burnt orange cover but there is no sender listed and no accompanying note. He only held onto it out of curiousity, wondering if it was meant for you all along.
 
@@ -523,7 +534,8 @@ But who would keep this from you? Who else knows about this book?
 
 What about other humanoid-computers? Assuming you&#39;re not the only one, does anyone else know the true nature of their reality?
 
-You put all these thoughts away and decide it’s time you finish the book. You’re convinced you’re not really safe anywhere so you ask the bookseller if he can let you read in his office, he hands you the key and [[you lock yourself in.]] </tw-passagedata><tw-passagedata pid="29" name="you lock yourself in." tags="annihilation" position="3575,1050" size="100,100">You dive back in and now that the narrator has uncovered this revelation, it&#39;s gone into hiding, trying to find a way to hack its “programming” and form a network through which it can find and communicate with others in the hopes that it might build a resistance to this phenomenon. 
+You put all these thoughts away and decide it’s time you finish the book. You’re convinced you’re not really safe anywhere so you ask the bookseller if he can let you read in his office, he hands you the key and [[you lock yourself in.]] </tw-passagedata><tw-passagedata pid="29" name="you lock yourself in." tags="annihilation" position="3575,1050" size="100,100">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+You dive back in and now that the narrator has uncovered this revelation, it&#39;s gone into hiding, trying to find a way to hack its “programming” and form a network through which it can find and communicate with others in the hopes that it might build a resistance to this phenomenon. 
 
 It starts trying to find out as much as it can about how they are all &quot;wired&quot;, what are their triggers and how much of their memory has been repeatedly wiped over the course of their lives. It has to be careful as anything can signal to the higher ups that something has been poked, prodded or even looked at too closely. Building the network is also proving difficult as the data servers are not equipped to handle something of its magnitude and additionally, it has to be discreet in order not to put itself or anyone else at risk.
 
@@ -539,7 +551,8 @@ You unfold it and find that it&#39;s written in binary code. Odd. But it&#39;s n
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[[|A&gt;[01010100 01101111 01100100 01100001 01111001 00100000 01101001 01110011 00100000 01101101 01111001 00100000 01100110 01101001 01110010 01110011 01110100 00100000 01100100 01100001 01111001 00100000 01100010 01100001 01100011 01101011 00101110 00100000 01001001 00100000 01101011 01100101 01100101 01110000 00100000 01101000 01100001 01110110 01101001 01101110 01100111 00100000 01110100 01101000 01100101 01110011 01100101 00100000 01100100 01110010 01100101 01100001 01101101 01110011 00100000 01110100 01101000 01100001 01110100 00100000 01001001 00100000 01100001 01101101 00100000 01101001 01101110 00100000 01110100 01101000 01100101 00100000 01100010 01100001 01110100 01101000 01110010 01101111 01101111 01101101 00101110 00100000 01001001 01110100 00100000 01101001 01110011 00100000 00110100 00100000 01100001 00101110 01101101 00101110 00100000 01001001 00100000 01100001 01101101 00100000 01100011 01110101 01110100 01110100 01101001 01101110 01100111 00100000 01101101 01111001 00100000 01100110 01100001 01100011 01100101 00100000 01101111 01110000 01100101 01101110 00100000 ]
 ]](click-replace: ?A,(action:&#39;click&#39;))[Today is my first day back. I keep having these dreams that I am in the bathroom. It is 4 a.m. I am cutting my face open so I can see if there is a camera in my eye because I just recreated a painting after seeing it once. I had every detail memorized in my brain and I had never done art before. My therapist asked me to write down my dreams so we can assess them together, but it has been the same one, every single night. I do not think it was a dream. Because in the dream I had brown eyes. And now the right one is blue AREYOUGOINGTODOAGOODJOBTODAY?YESAREYOUGOINGTODOAGOODJOBTODAY?YESAREYOUGOINGTODOAGOODJOBTODAY?YESAREYOUGOINGTODOAGOODJOBTODAY?YESAREYOUGOINGTODOAGOODJOBTODAY?YESAREYOUGOINGTODOAGOODJOBTODAY?[[YES]]]
 
-</tw-passagedata><tw-passagedata pid="30" name="YES" tags="annihilation" position="3725,1050" size="100,100">The note cuts off there. You are momentarily paralyzed as you take in the weight of this reveal. 
+</tw-passagedata><tw-passagedata pid="30" name="YES" tags="annihilation" position="3725,1050" size="100,100">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+The note cuts off there. You are momentarily paralyzed as you take in the weight of this reveal. 
 
 //You// wrote the note. //You// wrote the book. You are “Mary”. And you are a computer. 
 
@@ -566,7 +579,8 @@ Panopticon
 
 (align:&quot;==&gt;&quot;)+(box:&quot;=X&quot;)[[[Incorrect passcode. -&gt;Shit]]]
 
-</tw-passagedata><tw-passagedata pid="31" name="Restarting your computer..." tags="annihilation" position="3900,1050" size="100,100">You come to, standing in the middle of the office with the book open in your hands. Your mind is as clear as day, your limbs are functional again and it feels like you’ve stepped back into the present only to discover that no time has passed at all. 
+</tw-passagedata><tw-passagedata pid="31" name="Restarting your computer..." tags="annihilation" position="3900,1050" size="100,100">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+You come to, standing in the middle of the office with the book open in your hands. Your mind is as clear as day, your limbs are functional again and it feels like you’ve stepped back into the present only to discover that no time has passed at all. 
 
 You’ve figured it out. The passcode is the only thing standing between you and freedom. 
 
@@ -574,7 +588,8 @@ It suddenly dawns on you how important it is that other people find out the trut
 
 You have to go back to the office and find a way to secretly upload the book to the data servers [[so others can read it.]]
 
-</tw-passagedata><tw-passagedata pid="32" name="so others can read it." tags="annihilation" position="4050,1050" size="100,100">The office is empty when you arrive so you make your way over to your desk. You try to get back online but you can’t. Everything seems to be disconnected or restricted. 
+</tw-passagedata><tw-passagedata pid="32" name="so others can read it." tags="annihilation" position="4050,1050" size="100,100">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+The office is empty when you arrive so you make your way over to your desk. You try to get back online but you can’t. Everything seems to be disconnected or restricted. 
 
 Your supervisor suddenly appears, it seems like they’ve been waiting for you to return and they beckon you into their office.
 
@@ -603,7 +618,8 @@ You want to make sure they read it, it’s the only thing left you can do. But a
 [[Option_2: Accept their response and leave]]
 
 
-</tw-passagedata><tw-passagedata pid="33" name="Option_1: Make them promise they’ll read it" tags="annihilation" position="4050,1225" size="100,100">Your supervisor gives you a strange look but says they’ll start on it tonight.
+</tw-passagedata><tw-passagedata pid="33" name="Option_1: Make them promise they’ll read it" tags="annihilation" position="4050,1225" size="100,100">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+Your supervisor gives you a strange look but says they’ll start on it tonight.
 
 That&#39;s the end of that. You get up to clear your desk, feeling a weight off your shoulders. You can&#39;t remember the last time you&#39;ve had this much space to think and you can&#39;t help but feel like you knew things would end this way. 
 
@@ -626,7 +642,8 @@ Later that night, your supervisor, while waiting for an upload to complete, pick
 
 
 
-</tw-passagedata><tw-passagedata pid="34" name="Option_2: Accept their response and leave" tags="annihilation" position="4250,1050" size="100,100">That&#39;s the end of that. You get up to clear your desk, feeling a weight off your shoulders. You can&#39;t remember the last time you&#39;ve had this much space to think and you can&#39;t help but feel like you knew things would end this way. 
+</tw-passagedata><tw-passagedata pid="34" name="Option_2: Accept their response and leave" tags="annihilation" position="4250,1050" size="100,100">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+That&#39;s the end of that. You get up to clear your desk, feeling a weight off your shoulders. You can&#39;t remember the last time you&#39;ve had this much space to think and you can&#39;t help but feel like you knew things would end this way. 
 
 But even with this much uncertainty, it finally feels like you&#39;ve done something for yourself. Something that required will, instead of programmed responses.
 
@@ -640,7 +657,8 @@ The car drives off with you in it.
 
 Later that night, your supervisor, while waiting for an upload to complete, picks up the book and flips through out of curiosity. They scan the back cover page looking for information on the author before peeking inside, narrowing their eyes gently. Then they gasp, like they&#39;ve just remembered something and open up a word puzzle in a separate tab to type in the word: [[computer-&gt; The End 2]]
 
-</tw-passagedata><tw-passagedata pid="35" name="Title page" tags="atitle" position="350,650" size="100,100">&lt;audio id=&quot;titleAudio&quot; autoplay&gt;
+</tw-passagedata><tw-passagedata pid="35" name="Title page" tags="atitle" position="350,650" size="100,100">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;audio id=&quot;titleAudio&quot; autoplay&gt;
   &lt;source src=&quot;title.wav&quot; type=&quot;audio/wav&quot;&gt;
   Your browser does not support the audio element.
 &lt;/audio&gt;
@@ -649,7 +667,10 @@ Later that night, your supervisor, while waiting for an upload to complete, pick
   document.getElementById(&#39;titleAudio&#39;).volume = 0.5; 
 &lt;/script&gt;
 
-&lt;div id=&quot;title&quot;&gt;(char-style:(text-style:&quot;fidget&quot;))+(char-style:(text-style:&quot;fidget&quot;))+(char-style:(text-style:&quot;fidget&quot;))+(size:4)[[[&#39;&#39;`BIT_BY_BIT`&#39;&#39; -&gt;Title page 2]]] &lt;/div&gt;</tw-passagedata><tw-passagedata pid="36" name="Title page 2" tags="" position="500,550" size="100,100">&lt;div id=&quot;title&quot;&gt;(char-style:(text-style:&quot;fidget&quot;))+(char-style:(text-style:&quot;fidget&quot;))+(char-style:(text-style:&quot;fidget&quot;))+(size:4)+(color:white)[[[&#39;&#39;`PART_1_ARRIVAL`&#39;&#39; -&gt;Part 1: Arrival]]] &lt;/div&gt;</tw-passagedata><tw-passagedata pid="37" name="Title page 3" tags="" position="2150,375" size="100,100">&lt;div id=&quot;title&quot;&gt;(char-style:(text-style:&quot;fidget&quot;))+(char-style:(text-style:&quot;fidget&quot;))+(size:4)+(color:white)[[[&#39;&#39;`PART_2_AWAKENING`&#39;&#39; -&gt;Part 2: Awakening]]] &lt;/div&gt;</tw-passagedata><tw-passagedata pid="38" name="Title page 4" tags="title4" position="2850,1200" size="100,100">&lt;audio id=&quot;backgroundAudio&quot; autoplay&gt;
+&lt;div id=&quot;title&quot;&gt;(char-style:(text-style:&quot;fidget&quot;))+(char-style:(text-style:&quot;fidget&quot;))+(char-style:(text-style:&quot;fidget&quot;))+(size:4)[[[&#39;&#39;`BIT_BY_BIT`&#39;&#39; -&gt;Title page 2]]] &lt;/div&gt;</tw-passagedata><tw-passagedata pid="36" name="Title page 2" tags="" position="500,550" size="100,100">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;div id=&quot;title&quot;&gt;(char-style:(text-style:&quot;fidget&quot;))+(char-style:(text-style:&quot;fidget&quot;))+(char-style:(text-style:&quot;fidget&quot;))+(size:4)+(color:white)[[[&#39;&#39;`PART_1_ARRIVAL`&#39;&#39; -&gt;Part 1: Arrival]]] &lt;/div&gt;</tw-passagedata><tw-passagedata pid="37" name="Title page 3" tags="" position="2150,375" size="100,100">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;div id=&quot;title&quot;&gt;(char-style:(text-style:&quot;fidget&quot;))+(char-style:(text-style:&quot;fidget&quot;))+(size:4)+(color:white)[[[&#39;&#39;`PART_2_AWAKENING`&#39;&#39; -&gt;Part 2: Awakening]]] &lt;/div&gt;</tw-passagedata><tw-passagedata pid="38" name="Title page 4" tags="title4" position="2850,1200" size="100,100">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;audio id=&quot;backgroundAudio&quot; autoplay&gt;
   &lt;source src=&quot;insidious.wav&quot; type=&quot;audio/wav&quot;&gt;
   Your browser does not support the audio element.
 &lt;/audio&gt;
@@ -662,7 +683,8 @@ Later that night, your supervisor, while waiting for an upload to complete, pick
 (char-style:(text-style:&quot;fidget&quot;))+(char-style:(text-style:&quot;fidget&quot;))+(char-style:(text-style:&quot;fidget&quot;))+(size:4)+(text-color:#FFFF00)[[[&#39;&#39;`PART_3_ANNIHILATION`&#39;&#39; -&gt;Part 3: Annihilation]]] 
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="39" name="Shit" tags="annihilation" position="3725,1175" size="100,100">Shit. //What are you missing?//
+</tw-passagedata><tw-passagedata pid="39" name="Shit" tags="annihilation" position="3725,1175" size="100,100">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+Shit. //What are you missing?//
 
 You use the last of your energy to //squeeeeeze// your eyes shut, digging through the corners of your mind, for the secrets and hints you no doubt buried before every reset. You dissect everything, all the routines, rituals, projects, updates, every day of the 32 years you may or may not have ~~lived~~ existed.
 
@@ -682,7 +704,8 @@ You use the last of your energy to //squeeeeeze// your eyes shut, digging throug
 
 
 
-</tw-passagedata><tw-passagedata pid="40" name="The End 1" tags="title4" position="4175,1350" size="100,100">&lt;audio id=&quot;backgroundAudio&quot; autoplay&gt;
+</tw-passagedata><tw-passagedata pid="40" name="The End 1" tags="title4" position="4175,1350" size="100,100">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;audio id=&quot;backgroundAudio&quot; autoplay&gt;
   &lt;source src=&quot;insidious.wav&quot; type=&quot;audio/wav&quot;&gt;
   Your browser does not support the audio element.
 &lt;/audio&gt;
@@ -692,7 +715,8 @@ You use the last of your energy to //squeeeeeze// your eyes shut, digging throug
 &lt;/script&gt;
 
 &lt;div id=&quot;annihilation&quot;&gt;
-(char-style:(text-style:&quot;fidget&quot;))+(char-style:(text-style:&quot;fidget&quot;))+(char-style:(text-style:&quot;fidget&quot;))+(size:4)+(text-color:#FFFF00)[&#39;&#39;`THE_END`&#39;&#39;]</tw-passagedata><tw-passagedata pid="41" name=" The End 2" tags="title4" position="4450,1175" size="100,100">&lt;audio id=&quot;backgroundAudio&quot; autoplay&gt;
+(char-style:(text-style:&quot;fidget&quot;))+(char-style:(text-style:&quot;fidget&quot;))+(char-style:(text-style:&quot;fidget&quot;))+(size:4)+(text-color:#FFFF00)[&#39;&#39;`THE_END`&#39;&#39;]</tw-passagedata><tw-passagedata pid="41" name=" The End 2" tags="title4" position="4450,1175" size="100,100">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;audio id=&quot;backgroundAudio&quot; autoplay&gt;
   &lt;source src=&quot;insidious.wav&quot; type=&quot;audio/wav&quot;&gt;
   Your browser does not support the audio element.
 &lt;/audio&gt;
